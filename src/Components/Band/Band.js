@@ -17,7 +17,7 @@ const Band = (props) => {
                         <h6 className="card-title"><small>Established in : {founded}</small></h6>
                         <h3 className="card-title">Hiring Price : {hiringPrice}</h3>
                         <div className="card-footer">
-                            <button className="w-100 btn btn-primary">Hire Now</button>
+                            <button onClick={() => props.handleAddToCart(props.band)} className="w-100 btn btn-primary">Hire Now</button>
                         </div>
                     </div>
                 </div>
