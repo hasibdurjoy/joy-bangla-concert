@@ -2,8 +2,10 @@ import React from 'react';
 import './CartBanner.css'
 
 const CartBanner = (props) => {
+    /* destructuring from band  */
     const { image, name } = props.band;
     return (
+        /* making smallbanner to show item added on cart on click */
         <div className="cart-banner">
             <div class="row g-0">
                 <div class="col-md-4">

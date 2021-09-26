@@ -1,3 +1,4 @@
+/* cart small banner style  */
 .cart-banner{
     border: 2px solid black;
     border-radius: 10px;
@@ -5,6 +6,7 @@
     margin-bottom: 5px;
 }
 
+/* small banner image style  */
 .cart-image{
     height: 70px;
     width: 100px;

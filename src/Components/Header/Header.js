@@ -3,6 +3,7 @@ import './Header.css'
 
 const Header = () => {
     return (
+        /* header component  */
         <div className="header-section mb-2 text-center">
             <header>
                 <h4>Joy Bangla Concert - 2022</h4>

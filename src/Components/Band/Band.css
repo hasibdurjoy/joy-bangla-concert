@@ -1,12 +1,17 @@
-.card img{
+/* card image style  */
+.band-image{
     height: 250px;
     width: 250px;
     border-radius: 50%;
     padding: 20px;
 }
+
+/* whole card style  */
 .band-info{
     background-color: rgba(231, 229, 219, 0.685);
 }
+
+/* facebook and wikipedia icon style  */
 .fa-facebook-square,.fa-wikipedia-w{
     color: black;
 }

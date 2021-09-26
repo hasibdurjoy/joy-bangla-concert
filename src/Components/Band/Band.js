@@ -2,13 +2,15 @@ import React from 'react';
 import './Band.css'
 
 const Band = (props) => {
+    /* destructuring from band  */
     const { name, member, leadVocal, founded, origin, genres, hiringPrice, image, facebook, wikipidea } = props.band;
     return (
+        /* making card to show band  */
         <div className="band">
             <div className="col shadow rounded">
                 <div className="card h-100 band-info">
                     <div className="d-flex justify-content-center">
-                        <img src={image} className="card-img-top" alt="" />
+                        <img src={image} className="card-img-top band-image" alt="" />
                     </div>
                     <div className="card-body">
                         <h3 className="card-title text-center">{name}</h3>
