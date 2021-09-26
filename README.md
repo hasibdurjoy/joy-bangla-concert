@@ -1,7 +1,7 @@
 # Joy Bangla Concert 2022
 
 
-### Live Site Link : https://concert-manager-hrd.netlify.app/
+### Live Site Link : https://joy-bangla-concert-hrd.netlify.app/
 
 # Features Of this Website
 ##### .You Can Find your favorite music band here
