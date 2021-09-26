@@ -14,9 +14,12 @@ const Bands = () => {
     }, []);
 
     // handle add to cart function 
-    const handleAddToCart = (product) => {
-        const newCart = [...cart, product];
-        setCart(newCart);
+    const handleAddToCart = (band) => {
+        if (cart.indexOf(band) === -1) {
+            const newCart = [...cart, band];
+            setCart(newCart);
+        }
+
     }
     return (
         <div className="concert-container">

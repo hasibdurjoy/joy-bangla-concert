@@ -14,7 +14,6 @@ const Cart = (props) => {
         bands.push(band);
     }
 
-
     return (
         /* showing cart  */
         <div className="cart shadow">

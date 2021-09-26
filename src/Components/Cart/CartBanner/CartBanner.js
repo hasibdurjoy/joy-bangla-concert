@@ -7,13 +7,13 @@ const CartBanner = (props) => {
     return (
         /* making smallbanner to show item added on cart on click */
         <div className="cart-banner">
-            <div class="row g-0">
-                <div class="col-md-4">
-                    <img src={image} class="img-fluid rounded-start cart-image" alt="" />
+            <div className="row g-0">
+                <div className="col-md-4">
+                    <img src={image} className="img-fluid rounded-start cart-image" alt="" />
                 </div>
-                <div class="col-md-8">
-                    <div class="card-body">
-                        <h5 class="card-title">{name}</h5>
+                <div className="col-md-8">
+                    <div className="card-body">
+                        <h5 className="card-title">{name}</h5>
                     </div>
                 </div>
             </div>
