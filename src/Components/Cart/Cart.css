@@ -2,3 +2,8 @@
     padding: 20px;
     margin-left: 5px;
 }
+.cart-text{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.123);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

@@ -18,10 +18,10 @@ const Cart = (props) => {
     return (
         /* showing cart  */
         <div className="cart shadow">
-            <h4>My Cart</h4>
-            <h4>Addeded Item : {cart.length}</h4>
-            <h4>Total : ${totalPrice}</h4>
-            <h6 className="text-center">My Bands</h6>
+            <h4 className="text-center cart-text">My Cart</h4>
+            <h5 className="cart-text">Total Band : {cart.length}</h5>
+            <h4 className="cart-text">Total: ${totalPrice}</h4>
+            <h6 className="text-center cart-text">My Bands</h6>
             <div>
                 {/* loop and call CartBanner to show image and name in cart  */}
                 {
