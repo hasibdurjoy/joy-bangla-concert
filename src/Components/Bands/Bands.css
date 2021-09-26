@@ -2,3 +2,7 @@
     display: grid;
     grid-template-columns: 4fr 1fr;
   }
+  
+  .bands-container{
+    border-right: 2px solid;
+  }

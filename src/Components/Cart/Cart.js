@@ -1,7 +1,8 @@
 import React from 'react';
+import CartBanner from './CartBanner/CartBanner';
+import './Cart.css'
 
 const Cart = (props) => {
-    console.log(props);
     const { cart } = props;
     let totalPrice = 0;
     let bands = [];
@@ -12,13 +13,19 @@ const Cart = (props) => {
 
 
     return (
-        <div>
+        <div className="cart shadow">
             <h4>My Cart</h4>
             <h4>Addeded Item : {cart.length}</h4>
-            <h4>Total : {totalPrice}</h4>
-            {
-                bands.map(band => <p key={band.id}>{band.name}</p>)
-            }
+            <h4>Total : ${totalPrice}</h4>
+            <h6 className="text-center">My Bands</h6>
+            <div>
+                {
+                    bands.map(band => <CartBanner key={band.id} band={band}></CartBanner>)
+                }
+            </div>
+            <div className="d-flex justify-content-center">
+                <button className="btn btn-success">Confirm</button>
+            </div>
         </div>
     );
 };

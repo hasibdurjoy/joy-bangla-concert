@@ -1,0 +1,11 @@
+.cart-banner{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    margin-bottom: 5px;
+}
+
+.cart-image{
+    height: 70px;
+    width: 100px;
+}
