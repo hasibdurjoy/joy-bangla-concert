@@ -1,12 +1,14 @@
 import './App.css';
 import Bands from './Components/Bands/Bands';
+import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 
 function App() {
   return (
-    <div>
+    <div className="website-container">
       <Header></Header>
       <Bands></Bands>
+      <Footer></Footer>
     </div>
   );
 }

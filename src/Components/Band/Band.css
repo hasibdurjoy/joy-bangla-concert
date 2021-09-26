@@ -4,3 +4,12 @@
     border-radius: 50%;
     padding: 20px;
 }
+.band-info{
+    background-color: rgba(231, 229, 219, 0.685);
+}
+.fa-facebook-square,.fa-wikipedia-w{
+    color: black;
+}
+.fa-facebook-square:hover,.fa-wikipedia-w:hover{
+    color: blue;
+}
