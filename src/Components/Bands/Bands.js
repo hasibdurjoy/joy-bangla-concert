@@ -19,7 +19,9 @@ const Bands = () => {
             const newCart = [...cart, band];
             setCart(newCart);
         }
-
+        else if (cart.indexOf(band) !== -1) {
+            alert("You Can't Hire One Band For 2 time in one concert");
+        }
     }
     return (
         <div className="concert-container">
